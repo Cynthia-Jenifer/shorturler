@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const liveServerUrl = process.env.SERVER_URL;
+const liveServerUrl = process.env.REACT_APP_SERVER_URL;
 const url = liveServerUrl || 'http://localhost:3000';
 
 const shortUrlerAPI = axios.create({
